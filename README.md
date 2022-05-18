@@ -113,7 +113,7 @@ A retail web portal for designer clothing.
 <!-- CONTACT -->
 ## Team
 
-* [Alisha Barraw](https://www.github.com/akb3y)
+* [Alisha Barraw](https://www.linkedin.com/in/alisha-barraw)
 * [Addison Hernandez](https://www.github.com/addisonhernandez)
 * [Stephanie Yeong](https://www.github.com/positivefx)
 * [Will Atwood](https://www.github.com/Acid-Override)
