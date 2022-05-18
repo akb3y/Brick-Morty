@@ -1,77 +1,123 @@
-# Project Atelier
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#Brick-and-Morty">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#team">Team</a></li>
+  </ol>
+</details>
 
-> Project Atelier
-
-## Related Projects
-
-  - https://github.com/AlpineRockies/front-end-capstone.git
 
 
-## Table of Contents
+<!-- ABOUT THE PROJECT -->
+## Brick & Morty
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
+A retail web portal for designer clothing. 
 
-## Usage
+![OVERVIEW VIDEO](VIDEO_URL)
 
-## Available Scripts
+> My role in the front-end redesign and optimization of Brick & Morty was  the Overview Widget that allows a user to select a product and view relevent information. Selections in the overview update the selected product for other widgets on the page. 
 
-In the project directory, you can run:
+#### Photo Carousel
 
-### `npm run client-dev`
+- Allows users to browse photos of a product.
+- Allows users to expand the photos to full-size.
+- Allows users to zoom into a photo 2.5 x 
 
-Runs the app in the development mode.
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Expanded View](PHOTO_URL "Expanded View Screenshot")
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+![Zoom View](PHOTO_URL "Zoom View Screenshot")
 
-### `npm test`
+#### Thumbnail Selection
 
-Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Allows users to Select a Product.
+- Allows users to select a photo of a product.
 
-### `npm run build`
+#### Product Details
 
-Builds the app for production to the `build` folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Allows users to view product details.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+#### Cart
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Allows users to select the size and quanity of a product depending on SKU availability.
+- Allows users to add a product to their shopping cart.
 
-### `npm run server-dev`
+![Overview Photo](PHOTO_URL "Overview Widget Screenshot")
 
-Launchees the server and uses Nodemon to monitor for any file changes. If any file changes are detected with Nodemon, it will automatically restart the node server.
-Server will be listening on (http://localhost:3000)
-(https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-## Requirements
 
-An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
 
-- Node 6.13.0
-- etc
+### Built With
 
-## Development
+* [React.js](https://reactjs.org/)
+* [Express.js](https://expressjs.com/)
+* [Axios](https://axios-http.com/)
+* [Firebase](https://firebase.google.com/docs)
+* [MomentJS](https://momentjs.com/docs/)
 
-### Installing Dependencies
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-From within the root directory:
 
-```sh
-npm install
-```
 
-### Testing
+<!-- GETTING STARTED -->
+## Getting Started
 
-This project uses the Jest JavaScript testing framework.
+### Prerequisites
 
-Jest will run tests for any file with the format `*.test.js`
+* npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-To run tests from within the root directory:
-```sh
-npm test
-```
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/akb3y/Scriptly.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+4. Use `.env.example` to create your .env file
+   ```js
+   API_KEY = 'YOUR API KEY'
+   ```
+5. Start the app.
+   ```js
+   npm run client:dev
+   ```
+   and
+   
+    ```js
+   npm run server:dev
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Team
+
+* [Alisha Barraw](https://www.github.com/akb3y)
+* [Addison Hernandez](https://www.github.com/addisonhernandez)
+* [Stephanie Yeong](https://www.github.com/positivefx)
+* [Will Atwood](https://www.github.com/Acid-Override)
+
+Project Link: [https://github.com/akb3y/Brick-Morty](https://github.com/akb3y/Brick-Morty)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
