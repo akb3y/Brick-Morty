@@ -25,21 +25,21 @@
 <!-- ABOUT THE PROJECT -->
 ## Brick & Morty
 
-A retail web portal for designer clothing. 
+A retail web portal for designer clothing.
 
-![OVERVIEW VIDEO](VIDEO_URL)
+![OVERVIEW VIDEO](/BMVideo.gif)
 
-> My role in the front-end redesign and optimization of Brick & Morty was  the Overview Widget that allows a user to select a product and view relevent information. Selections in the overview update the selected product for other widgets on the page. 
+> My role in the front-end redesign and optimization of Brick & Morty was  the Overview Widget that allows a user to select a product and view relevent information. Selections in the overview update the selected product for other widgets on the page.
 
 #### Photo Carousel
 
 - Allows users to browse photos of a product.
 - Allows users to expand the photos to full-size.
-- Allows users to zoom into a photo 2.5 x 
+- Allows users to zoom into a photo 2.5 x
 
-![Expanded View](PHOTO_URL "Expanded View Screenshot")
+![Expanded View](/BMExpanded.png "Expanded View Screenshot")
 
-![Zoom View](PHOTO_URL "Zoom View Screenshot")
+![Zoom View](/BMZoomed.png "Zoom View Screenshot")
 
 #### Thumbnail Selection
 
@@ -55,7 +55,7 @@ A retail web portal for designer clothing.
 - Allows users to select the size and quanity of a product depending on SKU availability.
 - Allows users to add a product to their shopping cart.
 
-![Overview Photo](PHOTO_URL "Overview Widget Screenshot")
+![Overview Photo](/BMHomepage.png "Overview Widget Screenshot")
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,7 +102,7 @@ A retail web portal for designer clothing.
    npm run client:dev
    ```
    and
-   
+
     ```js
    npm run server:dev
    ```
